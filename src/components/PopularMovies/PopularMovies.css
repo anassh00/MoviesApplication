@@ -1,0 +1,21 @@
+.MovieContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color : grey; */
+    width:400px;
+    max-width:400px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.MoviesContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    border-radius: 8px;
+    width: 300px;   
+    padding : 8px;   
+}
